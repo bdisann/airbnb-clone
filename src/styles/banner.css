@@ -1,0 +1,48 @@
+.banner {
+  position: relative;
+  height: 55vh;
+  background: url("https://cdn.styleblueprint.com/wp-content/uploads/2015/12/SB-ATL-ZookHome-9-e1538165814448.jpg")
+    center center;
+}
+
+.banner__search {
+  display: flex;
+  flex-direction: column;
+  z-index: 999;
+}
+
+.banner__searchButton {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff7779 !important;
+}
+
+.banner__info {
+  background: black;
+  color: white;
+  padding: 19vh 50px 40px;
+  width: 300px;
+}
+
+.banner__info > button {
+  background: #ff7779;
+  color: white;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.banner__info > button:hover {
+  background: white;
+  color: #ff7779;
+}
+
+.banner__info > h5 {
+  margin-top: 15px;
+}
+
+.banner.blured {
+  filter: blur(8px);
+  transition: all 0.2s ease-in-out;
+}
